@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Забир Менделев — подготовка к ЕНТ по биологии и химии</title>
+  <meta name="description" content="Мини-курс подготовки к ЕНТ по биологии и химии: живые занятия, конспекты, практика в формате экзамена и пробные ЕНТ. Группы до 8 человек, онлайн и офлайн.">
+  <meta name="theme-color" content="#f6f1e7">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Забир Менделев — подготовка к ЕНТ по биологии и химии">
+  <meta property="og:description" content="Мини-курс для профильных биологии и химии: понятная система, практика формата ЕНТ и разбор ошибок.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Забир Менделев — на главную">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <path d="M12 21c-4.4 0-8-3.4-8-7.8C4 7.4 8.9 3.7 12 3c3.1.7 8 4.4 8 10.2 0 4.4-3.6 7.8-8 7.8Z" stroke="currentColor" stroke-width="1.4"/>
+            <path d="M12 21V9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M12 14c1.8-.4 3.2-1.6 4.1-3.4M12 11c-1.5-.3-2.8-1.3-3.7-2.9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">Забир Менделев</span>
+          <span class="brand-note">курсы подготовки к ЕНТ</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#about">О курсе</a>
+        <a href="#courses">Курсы</a>
+        <a href="#program">Программа</a>
+        <a href="#format">Формат</a>
+        <a href="#faq">Вопросы</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="header-phone" href="tel:+77087206418">+7 708 720 64 18</a>
+        <a class="btn btn-primary btn-sm" href="#signup">Записаться</a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="Мобильная навигация">
+        <a href="#about">О курсе</a>
+        <a href="#courses">Курсы</a>
+        <a href="#program">Программа</a>
+        <a href="#format">Формат</a>
+        <a href="#faq">Вопросы</a>
+        <a href="#signup">Записаться</a>
+      </nav>
+      <div class="mobile-menu-footer">
+        <a href="tel:+77087206418">+7 708 720 64 18</a>
+        <a class="btn btn-primary btn-sm" href="#signup">Пробное занятие</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal"><span class="eyebrow-dot" aria-hidden="true"></span>Забир Менделев · мини-курс к ЕНТ</p>
+          <h1 class="reveal">Биология и химия к ЕНТ — <em>по понятной системе</em></h1>
+          <p class="lead reveal">Короткая теория, практика в формате экзамена и разбор каждой ошибки. Готовим к профильным предметам без хаоса и зубрёжки.</p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#signup">Бесплатное пробное занятие</a>
+            <a class="btn btn-ghost" href="#program">Программа курса</a>
+          </div>
+          <ul class="hero-facts reveal">
+            <li>2 профильных предмета</li>
+            <li>Группы до 8 человек</li>
+            <li>Онлайн и офлайн</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal">
+          <figure class="hero-photo">
+            <img src="assets/hero.jpg" alt="Микроскоп, стеклянные колбы с растворами и растения на рабочем столе" width="1024" height="1280" fetchpriority="high">
+          </figure>
+
+          <div class="float-card float-bio" aria-hidden="true">
+            <span class="dot dot-green"></span>
+            <div>
+              <strong>Биология</strong>
+              <span>6 модулей · 24 занятия</span>
+            </div>
+          </div>
+
+          <div class="float-card float-chem" aria-hidden="true">
+            <span class="dot dot-terra"></span>
+            <div>
+              <strong>Химия</strong>
+              <span>5 модулей · 20 занятий</span>
+            </div>
+          </div>
+
+          <div class="hero-seal" aria-hidden="true">
+            <svg class="seal-ring" viewBox="0 0 120 120">
+              <defs>
+                <path id="seal-path" d="M60,60 m-42,0 a42,42 0 1,1 84,0 a42,42 0 1,1 -84,0"></path>
+              </defs>
+              <text>
+                <textPath href="#seal-path" startOffset="0">ПОДГОТОВКА К ЕНТ · БИОЛОГИЯ · ХИМИЯ · </textPath>
+              </text>
+            </svg>
+            <span class="seal-center">ЗМ</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="fact-bar reveal">
+          <div class="fact">
+            <strong>44</strong>
+            <span>занятия в полном мини-курсе</span>
+          </div>
+          <div class="fact">
+            <strong>90<span class="fact-unit"> мин</span></strong>
+            <span>длится одно занятие</span>
+          </div>
+          <div class="fact">
+            <strong>8</strong>
+            <span>максимум учеников в группе</span>
+          </div>
+          <div class="fact">
+            <strong>ЕНТ<span class="fact-unit"> / мес</span></strong>
+            <span>пробный экзамен каждый месяц</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-head reveal">
+          <p class="section-label">01 · О курсе</p>
+          <h2>Один курс — два предмета и <em>ясный план</em></h2>
+          <p class="muted">Для медицинских, биологических и аграрных специальностей, где биология и химия идут парой.</p>
+          <a class="link-arrow" href="#courses">Смотреть курсы<span aria-hidden="true"> →</span></a>
+        </div>
+
+        <div class="about-body">
+          <p class="about-lead reveal">«Забир Менделев» — мини-курс для тех, кому нужна уверенная база по двум профильным предметам и понятный маршрут до экзамена.</p>
+          <p class="muted reveal">Мы не растягиваем теорию на весь год: собираем темы в модули, сразу подкрепляем практикой ЕНТ и возвращаемся к слабым местам, пока они не станут сильными.</p>
+
+          <ul class="about-points">
+            <li class="reveal">
+              <span class="point-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </span>
+              <div>
+                <h3>Сначала диагностика</h3>
+                <p>На бесплатной встрече определяем уровень по обоим предметам и честно говорим, сколько времени понадобится.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="point-icon point-icon-terra" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><circle cx="9" cy="8" r="3.2" stroke="currentColor" stroke-width="1.5"/><circle cx="16.5" cy="9.5" r="2.4" stroke="currentColor" stroke-width="1.5"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5M14.4 14.6c2.3.1 4.2 1.6 4.9 4.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </span>
+              <div>
+                <h3>Маленькие группы</h3>
+                <p>До 8 человек: успеваем разобрать вопросы каждого и не теряем темп из-за одного сложного задания.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="point-icon point-icon-gold" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M4 5.5c2.7-1 5.4-1 8 0v14c-2.6-1-5.3-1-8 0v-14ZM20 5.5c-2.6-1-5.3-1-8 0v14c2.7-1 5.4-1 8 0v-14Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+              </span>
+              <div>
+                <h3>Материалы остаются</h3>
+                <p>Конспекты, схемы и банк заданий — у вас в доступе и после окончания курса.</p>
+              </div>
+            </li>
+          </ul>
+
+          <blockquote class="quote reveal">
+            «Не нужно учить всё подряд. Нужно понять главное — и научиться уверенно решать.»
+            <cite>— подход «Забир Менделев»</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section courses" id="courses">
+      <div class="container">
+        <div class="section-head">
+          <div class="reveal">
+            <p class="section-label">02 · Курсы</p>
+            <h2>Два предмета — <em>две программы</em></h2>
+          </div>
+          <p class="section-aside reveal">Берите один предмет или оба: в пакете — общий график, один куратор и скидка.</p>
+        </div>
+
+        <div class="course-grid">
+          <article class="course-card course-bio reveal">
+            <div class="course-top">
+              <span class="tag tag-green">Профильный предмет</span>
+              <span class="course-count">24 занятия</span>
+            </div>
+            <h3>Биология</h3>
+            <p class="course-desc">От ботаники и зоологии до анатомии, генетики и экологии. Разбираем связи между темами и учимся решать задания ЕНТ, а не запоминать ответы.</p>
+            <ul class="course-list checks">
+              <li>6 модулей: от клетки до экосистем</li>
+              <li>2 занятия в неделю по 90 минут</li>
+              <li>Конспекты, схемы и рабочие листы</li>
+              <li>Недельные тесты и пробное ЕНТ</li>
+            </ul>
+            <div class="course-footer">
+              <a class="btn btn-card" href="#signup" data-subject="Биология">Записаться на биологию</a>
+              <a class="link-arrow" href="#program" data-tab-link="bio">Программа<span aria-hidden="true"> →</span></a>
+            </div>
+          </article>
+
+          <article class="course-card course-chem reveal">
+            <div class="course-top">
+              <span class="tag tag-terra">Профильный предмет</span>
+              <span class="course-count">20 занятий</span>
+            </div>
+            <h3>Химия</h3>
+            <p class="course-desc">От строения атома до органики. Больше практики: качественные реакции, схемы превращений и расчётные задачи — по шагам.</p>
+            <ul class="course-list checks">
+              <li>5 модулей: от атома до полимеров</li>
+              <li>2 занятия в неделю по 90 минут</li>
+              <li>Практикум по расчётным задачам</li>
+              <li>Недельные тесты и пробное ЕНТ</li>
+            </ul>
+            <div class="course-footer">
+              <a class="btn btn-card" href="#signup" data-subject="Химия">Записаться на химию</a>
+              <a class="link-arrow" href="#program" data-tab-link="chem">Программа<span aria-hidden="true"> →</span></a>
+            </div>
+          </article>
+        </div>
+
+        <div class="combo reveal">
+          <div class="combo-copy">
+            <span class="tag tag-gold">Выгоднее вдвоём</span>
+            <h3>Пакет «Биология + Химия»</h3>
+            <p>Оба предмета в одном расписании. Общие пробные экзамены и один куратор — меньше перегрузки, больше времени на практику.</p>
+          </div>
+          <ul class="combo-list">
+            <li>44 занятия</li>
+            <li>Единый график</li>
+            <li>Скидка на пакет</li>
+          </ul>
+          <a class="btn btn-light" href="#signup" data-subject="Биология + Химия">Взять два предмета</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section program" id="program">
+      <div class="container">
+        <div class="section-head">
+          <div class="reveal">
+            <p class="section-label">03 · Программа</p>
+            <h2>Что разбираем <em>на занятиях</em></h2>
+          </div>
+          <div class="tabs reveal" role="tablist" aria-label="Программа по предметам">
+            <button class="tab is-active" id="tab-bio" type="button" role="tab" aria-selected="true" aria-controls="panel-bio" data-tab="bio">Биология <span class="tab-badge">6</span></button>
+            <button class="tab" id="tab-chem" type="button" role="tab" aria-selected="false" aria-controls="panel-chem" data-tab="chem" tabindex="-1">Химия <span class="tab-badge">5</span></button>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="panel-bio" role="tabpanel" aria-labelledby="tab-bio">
+          <div class="module-grid">
+            <article class="module">
+              <span class="module-num">01</span>
+              <h3>Ботаника</h3>
+              <ul>
+                <li>Клетка и ткани растений</li>
+                <li>Корень, стебель, лист</li>
+                <li>Цветок, плод, семя</li>
+                <li>Фотосинтез и транспирация</li>
+              </ul>
+              <p class="module-meta">4 занятия</p>
+            </article>
+            <article class="module">
+              <span class="module-num">02</span>
+              <h3>Зоология</h3>
+              <ul>
+                <li>Простейшие и беспозвоночные</li>
+                <li>Хордовые: от рыб до млекопитающих</li>
+                <li>Сравнительная анатомия</li>
+                <li>Систематика животных</li>
+              </ul>
+              <p class="module-meta">4 занятия</p>
+            </article>
+            <article class="module">
+              <span class="module-num">03</span>
+              <h3>Анатомия человека</h3>
+              <ul>
+                <li>Ткани и системы органов</li>
+                <li>Кровообращение и дыхание</li>
+                <li>Пищеварение и обмен веществ</li>
+                <li>Нервная и эндокринная системы</li>
+              </ul>
+              <p class="module-meta">5 занятий</p>
+            </article>
+            <article class="module">
+              <span class="module-num">04</span>
+              <h3>Общая биология</h3>
+              <ul>
+                <li>Химический состав клетки</li>
+                <li>Строение клетки</li>
+                <li>Обмен веществ и энергии</li>
+                <li>Деление клетки</li>
+              </ul>
+              <p class="module-meta">4 занятия</p>
+            </article>
+            <article class="module">
+              <span class="module-num">05</span>
+              <h3>Генетика</h3>
+              <ul>
+                <li>Законы Менделя</li>
+                <li>Сцепленное наследование</li>
+                <li>Изменчивость</li>
+                <li>Решение генетических задач</li>
+              </ul>
+              <p class="module-meta">4 занятия</p>
+            </article>
+            <article class="module">
+              <span class="module-num">06</span>
+              <h3>Эволюция и экология</h3>
+              <ul>
+                <li>Движущие силы эволюции</li>
+                <li>Экосистемы и цепи питания</li>
+                <li>Биосфера</li>
+                <li>Повторение и пробное ЕНТ</li>
+              </ul>
+              <p class="module-meta">3 занятия</p>
+            </article>
+          </div>
+          <p class="program-note">План корректируем под уровень группы: темы могут двигаться, объём практики остаётся.</p>
+        </div>
+
+        <div class="tab-panel" id="panel-chem" role="tabpanel" aria-labelledby="tab-chem" hidden>
+          <div class="module-grid">
+            <article class="module">
+              <span class="module-num">01</span>
+              <h3>Строение вещества</h3>
+              <ul>
+                <li>Строение атома</li>
+                <li>Периодический закон</li>
+                <li>Химическая связь</li>
+                <li>Кристаллические решётки</li>
+              </ul>
+              <p class="module-meta">4 занятия</p>
+            </article>
+            <article class="module">
+              <span class="module-num">02</span>
+              <h3>Неорганическая химия</h3>
+              <ul>
+                <li>Классы соединений</li>
+                <li>Свойства металлов и неметаллов</li>
+                <li>Качественные реакции</li>
+                <li>Ионные уравнения</li>
+              </ul>
+              <p class="module-meta">4 занятия</p>
+            </article>
+            <article class="module">
+              <span class="module-num">03</span>
+              <h3>Реакции и процессы</h3>
+              <ul>
+                <li>Окислительно-восстановительные реакции</li>
+                <li>Электролиз</li>
+                <li>Гидролиз</li>
+                <li>Скорость реакции и равновесие</li>
+              </ul>
+              <p class="module-meta">4 занятия</p>
+            </article>
+            <article class="module">
+              <span class="module-num">04</span>
+              <h3>Расчёты и задачи</h3>
+              <ul>
+                <li>Моль и молярные массы</li>
+                <li>Растворы и концентрации</li>
+                <li>Выход продукта</li>
+                <li>Задачи на смеси</li>
+              </ul>
+              <p class="module-meta">4 занятия</p>
+            </article>
+            <article class="module">
+              <span class="module-num">05</span>
+              <h3>Органическая химия</h3>
+              <ul>
+                <li>Углеводороды</li>
+                <li>Спирты, альдегиды, кислоты</li>
+                <li>Углеводы, аминокислоты, белки</li>
+                <li>Полимеры и итоговое пробное</li>
+              </ul>
+              <p class="module-meta">4 занятия</p>
+            </article>
+          </div>
+          <p class="program-note">План корректируем под уровень группы: темы могут двигаться, объём практики остаётся.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section method" id="method">
+      <div class="container">
+        <div class="section-head">
+          <div class="reveal">
+            <p class="section-label">04 · Как это работает</p>
+            <h2>От диагностики <em>до пробного ЕНТ</em></h2>
+          </div>
+          <p class="section-aside reveal">Цикл повторяется каждый месяц — так видно реальный прогресс, а не ощущение «вроде занимаюсь».</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-num">1</span>
+            <h3>Диагностика</h3>
+            <p>Бесплатная встреча: проверяем уровень по биологии и химии, обсуждаем цель и сроки.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">2</span>
+            <h3>План</h3>
+            <p>Собираем расписание и подбираем темп. В пакете — единый график по двум предметам.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">3</span>
+            <h3>Практика</h3>
+            <p>Короткая теория и задания ЕНТ на каждом занятии. Раз в месяц — полный пробник с разбором.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">4</span>
+            <h3>Прогресс</h3>
+            <p>Разбираем ошибки, следим за динамикой и корректируем план до самого экзамена.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section formats" id="format">
+      <div class="container">
+        <div class="section-head">
+          <div class="reveal">
+            <p class="section-label">05 · Формат и цены</p>
+            <h2>Учитесь так, как <em>удобно вам</em></h2>
+          </div>
+          <p class="section-aside reveal">Онлайн-группы и офлайн по записи. Точную стоимость и расписание подтвердит координатор.</p>
+        </div>
+
+        <div class="price-grid">
+          <article class="price-card reveal">
+            <h3>Группа</h3>
+            <p class="price">от 40 000 ₸<span>/ месяц</span></p>
+            <p class="price-note">2 занятия в неделю по 90 минут</p>
+            <ul class="checks">
+              <li>До 8 человек</li>
+              <li>Онлайн или офлайн</li>
+              <li>Конспекты и банк заданий</li>
+              <li>Проверка домашних тестов</li>
+            </ul>
+            <a class="btn btn-outline" href="#signup" data-subject="Биология + Химия">Выбрать группу</a>
+          </article>
+
+          <article class="price-card is-featured reveal">
+            <span class="price-badge">Оптимально</span>
+            <h3>Биология + Химия</h3>
+            <p class="price">от 70 000 ₸<span>/ месяц</span></p>
+            <p class="price-note">Оба предмета в одном графике</p>
+            <ul class="checks checks-light">
+              <li>44 занятия за мини-курс</li>
+              <li>Единый график и куратор</li>
+              <li>Общие пробные экзамены</li>
+              <li>Скидка на пакет</li>
+            </ul>
+            <a class="btn btn-cream" href="#signup" data-subject="Биология + Химия">Взять пакет</a>
+          </article>
+
+          <article class="price-card reveal">
+            <h3>Индивидуально</h3>
+            <p class="price">от 90 000 ₸<span>/ месяц</span></p>
+            <p class="price-note">Гибкий график под вашу цель</p>
+            <ul class="checks">
+              <li>Программа под ваш уровень</li>
+              <li>Онлайн-занятия</li>
+              <li>Разбор личных ошибок</li>
+              <li>Ускоренный темп при дедлайне</li>
+            </ul>
+            <a class="btn btn-outline" href="#signup" data-subject="Биология + Химия">Записаться</a>
+          </article>
+        </div>
+        <p class="formats-note reveal">Пробное занятие — бесплатно. Перед стартом проводим диагностику и подбираем формат.</p>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-head reveal">
+          <p class="section-label">06 · Вопросы</p>
+          <h2>Частые <em>вопросы</em></h2>
+          <p class="muted">Не нашли ответ? Напишите в WhatsApp — ответим в течение рабочего дня.</p>
+          <a class="link-arrow" href="https://wa.me/77087206418" target="_blank" rel="noopener">Написать в WhatsApp<span aria-hidden="true"> →</span></a>
+        </div>
+
+        <div class="accordion">
+          <div class="faq-item is-open reveal">
+            <button class="faq-trigger" id="faq-btn-1" type="button" aria-expanded="true" aria-controls="faq-panel-1">
+              <span>Для кого этот мини-курс?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-panel" id="faq-panel-1" role="region" aria-labelledby="faq-btn-1">
+              <p>Для учеников 10–11 классов и выпускников, которым биология и химия нужны для поступления на медицинские, биологические, аграрные и педагогические специальности.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-trigger" id="faq-btn-2" type="button" aria-expanded="false" aria-controls="faq-panel-2">
+              <span>Можно взять только один предмет?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-panel" id="faq-panel-2" role="region" aria-labelledby="faq-btn-2">
+              <p>Да. Биология и химия идут отдельными программами. Пакет «Биология + Химия» удобнее по графику и выгоднее по цене.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-trigger" id="faq-btn-3" type="button" aria-expanded="false" aria-controls="faq-panel-3">
+              <span>Занятия проходят онлайн или офлайн?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-panel" id="faq-panel-3" role="region" aria-labelledby="faq-btn-3">
+              <p>Есть оба формата. Онлайн — живые занятия с конспектами и записью. Офлайн — небольшие группы; наличие мест и адрес уточняйте у координатора.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-trigger" id="faq-btn-4" type="button" aria-expanded="false" aria-controls="faq-panel-4">
+              <span>Что если я пропущу занятие?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-panel" id="faq-panel-4" role="region" aria-labelledby="faq-btn-4">
+              <p>Материалы и запись остаются у вас. Ключевые моменты разберём индивидуально, а пробные экзамены помогут вовремя заметить пробелы.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-trigger" id="faq-btn-5" type="button" aria-expanded="false" aria-controls="faq-panel-5">
+              <span>Подойдёт ли курс при слабой базе?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-panel" id="faq-panel-5" role="region" aria-labelledby="faq-btn-5">
+              <p>Да. Начинаем с диагностики и базовых тем, без которых нельзя двигаться дальше. Если нужно быстрее догнать программу, подойдёт индивидуальный формат.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-trigger" id="faq-btn-6" type="button" aria-expanded="false" aria-controls="faq-panel-6">
+              <span>Сколько времени нужно дома?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-panel" id="faq-panel-6" role="region" aria-labelledby="faq-btn-6">
+              <p>Около 2–3 часов в неделю: повторить конспект и решить практику. Перед пробным экзаменом — чуть больше.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-trigger" id="faq-btn-7" type="button" aria-expanded="false" aria-controls="faq-panel-7">
+              <span>Как записаться?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-panel" id="faq-panel-7" role="region" aria-labelledby="faq-btn-7">
+              <p>Оставьте заявку в форме ниже или напишите в WhatsApp. Координатор свяжется в течение рабочего дня, подберёт формат и время.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section signup" id="signup">
+      <div class="container">
+        <div class="signup-card reveal">
+          <div class="signup-copy">
+            <p class="section-label section-label-light">07 · Запись</p>
+            <h2>Первый шаг — <em>бесплатное занятие</em></h2>
+            <p>Познакомимся, определим уровень по биологии и химии и покажем, как будет устроена подготовка. Без обязательств и оплаты.</p>
+            <ul class="signup-points checks checks-gold">
+              <li>60–90 минут онлайн или офлайн</li>
+              <li>Разбор одной темы и мини-тест</li>
+              <li>План подготовки после встречи</li>
+            </ul>
+            <div class="signup-contacts">
+              <span>Удобнее написать?</span>
+              <a href="https://wa.me/77087206418" target="_blank" rel="noopener">WhatsApp</a>
+              <a href="https://t.me/+77087206418" target="_blank" rel="noopener">Telegram</a>
+            </div>
+          </div>
+
+          <div class="form-wrap">
+            <form class="signup-form" id="signup-form" novalidate>
+              <div class="field">
+                <label for="name">Имя</label>
+                <input id="name" name="name" type="text" autocomplete="name" placeholder="Как к вам обращаться" required>
+                <p class="field-error" data-error-for="name" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="phone">Телефон</label>
+                <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7 700 123 45 67" required>
+                <p class="field-error" data-error-for="phone" role="alert"></p>
+              </div>
+              <div class="field-row">
+                <div class="field">
+                  <label for="subject">Предмет</label>
+                  <select id="subject" name="subject">
+                    <option>Биология + Химия</option>
+                    <option>Биология</option>
+                    <option>Химия</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="lesson-format">Формат</label>
+                  <select id="lesson-format" name="format">
+                    <option>Онлайн</option>
+                    <option>Офлайн</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit" data-channel="whatsapp">Записаться в WhatsApp</button>
+                <button class="btn btn-ghost" type="submit" data-channel="telegram">Записаться в Telegram</button>
+              </div>
+              <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных. Сообщение с вашими данными откроется в мессенджере — останется нажать «Отправить».</p>
+            </form>
+
+            <div class="form-success" id="form-success" tabindex="-1" hidden>
+              <span class="success-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M4 12.5l5 5L20 6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <h3>Остался один шаг</h3>
+              <p id="success-text">Заявка готова. Откройте мессенджер и нажмите «Отправить».</p>
+              <a class="btn btn-primary" id="success-link" href="https://wa.me/77087206418" target="_blank" rel="noopener">Открыть WhatsApp</a>
+              <button class="btn btn-ghost" id="form-again" type="button">Отправить ещё одну заявку</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#top" aria-label="Забир Менделев — на главную">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <path d="M12 21c-4.4 0-8-3.4-8-7.8C4 7.4 8.9 3.7 12 3c3.1.7 8 4.4 8 10.2 0 4.4-3.6 7.8-8 7.8Z" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M12 21V9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <path d="M12 14c1.8-.4 3.2-1.6 4.1-3.4M12 11c-1.5-.3-2.8-1.3-3.7-2.9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">Забир Менделев</span>
+            <span class="brand-note">курсы подготовки к ЕНТ</span>
+          </span>
+        </a>
+        <p>Мини-курс подготовки к ЕНТ по биологии и химии. Онлайн — по всему Казахстану, офлайн-группы — по записи.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Курсы</h3>
+        <a href="#courses">Биология</a>
+        <a href="#courses">Химия</a>
+        <a href="#courses">Биология + Химия</a>
+      </div>
+
+      <div class="footer-col">
+        <h3>Информация</h3>
+        <a href="#program">Программа</a>
+        <a href="#format">Формат и цены</a>
+        <a href="#faq">Вопросы</a>
+        <a href="#about">О курсе</a>
+      </div>
+
+      <div class="footer-col footer-contacts">
+        <h3>Контакты</h3>
+        <a href="tel:+77087206418">+7 708 720 64 18</a>
+        <a href="https://wa.me/77087206418" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://t.me/+77087206418" target="_blank" rel="noopener">Telegram</a>
+        <a href="https://instagram.com/zabirmendelev" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> «Забир Менделев»</p>
+      <p>Подготовка к ЕНТ · Биология · Химия</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
